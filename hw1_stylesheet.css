@@ -1,0 +1,54 @@
+nav {
+    text-align: center;
+    font-family: "Source Serif 4", "Lora", "Georgia", serif;
+    font-size: x-large;
+    word-spacing: 20px;
+}
+head {
+    background-color: rgb(216, 206, 179);
+    margin: 10px;
+    font-family: "Source Serif 4", "Lora", "Georgia", serif;
+    border: 15px solid #6d6a5b;
+    border-radius: 8px;
+}
+.top_section {
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    gap: 20px;
+}
+.about {
+    flex: 20%;
+}
+.box {
+    border: 15px solid #6d6a5b;
+    border-radius: 8px;
+}
+.courses {
+    flex: 40%;
+    border: 15px solid #6d6a5b;
+    border-radius: 8px;
+}
+.send_info {
+    border-spacing: 6px;
+    border: 1px solid #000000;
+    text-align: center;
+    border: 15px solid #6d6a5b;
+    border-radius: 8px;
+    flex: 20%;
+}
+th, td {
+    border-spacing: 6px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+body {
+    background-color: rgb(216, 206, 179);
+    margin: 100;
+    font-family: "Source Serif 4", "Lora", "Georgia", serif;
+}
+a {
+    color: #000000;
+    font: italic;
+}
